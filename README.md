@@ -18,7 +18,7 @@ El programa a realizar para este primer trabajo es un shell simple que tenga las
    - `pwd` – indica el directorio actual (5%)
    - `quit` - sale del shell  (5%)
 
-2.	Todas las otras entradas de comando serán interpretadas como una invocación de comandos externos ó programas ejecutables que deben ser realizadas usando las llamadas al sistema **fork** y **exec** para crear un proceso hijo que ejecute el programa invocado (ó con cualquier llamada al sistema similar que exista en el lenguaje de su elección, también si desean lo podrían hacer a nivel de hilos en vez de procesos). En caso de que el comando externo no exista debe indicarlo con un mensaje de error. Estos comandos externos deben manejar los argumentos que se les pasen. (20%)
+2.	Todas las otras entradas de comando serán interpretadas como una invocación de comandos externos ó programas ejecutables que deben ser realizadas usando las llamadas al sistema **fork** y **exec** para crear un proceso hijo que ejecute el programa invocado (ó con cualquier llamada al sistema similar que exista en el lenguaje de su elección, también si desean lo podrían hacer a nivel de hilos en vez de procesos). En caso de que el comando externo no exista debe indicarlo con un mensaje de error. Estos comandos externos deben manejar los argumentos que se les pasen. Como referencia del uso de fork y exec consulte el código en https://repl.it/@rsolisuaz/SisOp17Sep   (20%)
 
 3.	El indicador del shell debe contener la ruta del directorio actual, seguida de un espacio y un `>` (5%)
 

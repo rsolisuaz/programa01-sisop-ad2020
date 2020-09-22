@@ -1,5 +1,5 @@
-#SISTEMAS OPERATIVOS
-##TRABAJO DE PROGRAMACION 1
+# SISTEMAS OPERATIVOS
+## TRABAJO DE PROGRAMACION 1
 
 El objetivo de este primer programa es que apliquen las técnicas de administración de procesos en los sistemas operativos tipo POSIX y desarrollen programas multiproceso usando un lenguaje de programación que permita el uso de estas técnicas, implementando un Shell.
 El shell o Intérprete de Comandos es la interface fundamental de un Sistema Operativo. 
